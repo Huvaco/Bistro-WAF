@@ -37,13 +37,18 @@ var feedbackButtonCreativeCleaner;
 var customEmbeddedFeedbackCleaner;
 var embeddedLinkCleaner;
 
+//Responsive Dialog Page
+var responsiveDialogPageCleaner;
+var messageCleaner;
+
 //Extra
 var cleaner;
 
 function myFunction() {
-                QSI.API.unload(); 
-                QSI.API.load(); 
-                QSI.API.run();
+    QSI.API.unload(); 
+    QSI.isDebug = true; 
+    QSI.API.load(); 
+    QSI.API.run();
 }
 
 function responsiveDialog(){
@@ -91,4 +96,21 @@ function customEmbeddedFeedback(){
 
 function embeddedLink(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-EmbeddedLink');
+}
+
+//Responssive Dialog Page
+function display(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-Display');
+}
+
+function message(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-Message');
+}
+
+const carousel = document.querySelector(".carousel-container");
+const slide = document.querySelector(".carousel-slide");
+
+function handleCarouselMove(positive = true) {
+  const slideWidth = slide.clientWidth;
+  carousel.scrollLeft = positive ? carousel.scrollLeft + slideWidth : carousel.scrollLeft - slideWidth;
 }
