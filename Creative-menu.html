@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Img/Chef Logo.png" type="image/x-icon">
+    <title>Intercepts</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- MOBILE SHEET -->
+    <link rel="stylesheet" media="screen and (max-width: 1025px)" href="./mobilesheet.css">
+
+    <!-- AOS ANIMATION LIBRARY -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <!-- FONT-AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+    (function(){var g=function(e,h,f,g){
+    
+    this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+    
+    this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+    
+    this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+    
+    this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)}};
+    
+    this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+    
+    try{(new g(100,"r","QSI_S_ZN_BDj9ZNSbyjhYfTP","https://znbdj9znsbyjhyftp-qasia.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_BDj9ZNSbyjhYfTP")).start()}catch(i){}})();
+    
+    </script><div id='ZN_BDj9ZNSbyjhYfTP'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+    
+    <!--END WEBSITE FEEDBACK SNIPPET-->
+
+</head>
+
+<body>
+    <!-- NAVBAR SECTION START FROM HERE -->
+    <header>
+        <nav id="navbar" data-aos="fade-down">
+            <div class="logo">
+                <img src="./Img/Chef Logo.png" alt="">
+                <h3>WAF Restro</h3>
+            </div>
+            
+            <div class="right-nav">
+                <input type="checkbox" name="check" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </label>
+                <ul class="h-list">
+                    <li><a href="index.html">Home</a></li>       
+                    <li><a href="our-menu.html">Our Menu</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION IS START FROM HERE -->
+
+    <main>
+        
+        <!-- Menu -->
+        <div class="header-menu">
+            <h1 >Creatives Menu</h1>
+         </div>
+
+        <div class="row-int">
+            <!-- Guided Intercepts -->
+            <div class="column" style="background-color: #ffd07e;">
+                <h3 style="text-align: center; font-family: 'Freehand', sans-serif;">Active Creatives</h3>
+
+                <div class="column-in-left">
+                    <div style="border-bottom-style: solid;">
+                        <p class="int-menu">RESPONSIVE DIALOG </p>
+                    </div>
+                    <div style="border-bottom-style: solid;">
+                        <p class="int-menu">POP OVER </p>
+                    </div>
+                    <div style="border-bottom-style: solid;">
+                        <p class="int-menu">SLIDER </p>
+                    </div>
+                    <div>
+                        <p class="int-menu">POP UNDER </p>
+                    </div>
+                    
+                  </div>
+
+                  <div class="column-in-right" >
+                    <div style="border-bottom-style: solid;">
+                        <button id="Btn-ResponsiveDialogCreative" onclick=" responsiveDialogCreativeCleaner=1, popOverCleaner=0; sliderCleaner=0, popUnderCleaner=0,  myFunction(), responsiveDialogCreative()">TEST</button>
+                    </div>
+                    <div style="border-bottom-style: solid;">
+                        <button id="Btn-PopOver" onclick=" responsiveDialogCreativeCleaner=0, popOverCleaner=1; sliderCleaner=0, popUnderCleaner=0, myFunction(), popOver()">TEST</button>
+                    </div>
+                    <div style="border-bottom-style: solid;">
+                        <button id="Btn-Slider" onclick=" responsiveDialogCreativeCleaner=0, popOverCleaner=0, sliderCleaner=1, popUnderCleaner=0, myFunction(), slider()">TEST</button>
+                    </div>
+                    <div>
+                        <button id="Btn-PopUnder" onclick=" responsiveDialogCreativeCleaner=0, popOverCleaner=0, sliderCleaner=0, popUnderCleaner=1, myFunction(), popUnder()">TEST</button>
+                    </div>
+
+                    
+                  </div>
+
+
+                <!-- <div style="background-color: bisque; height: 23rem; border-top-style: solid; border-color: black;" > 
+                    <ul>
+                        <li style="font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Responsive Dialog: Get feedback at key moments using a dialog that responds to any device size 
+                            <button id="Btn">Test</button></li>
+                    </ul>
+
+                    <div class="column-in"></div>
+                    
+                </div> 
+                -->
+            </div>
+
+            
+            <div class="column" style="background-color: #ffd07e;">
+                <h3 style="text-align: center; font-family: 'Freehand', sans-serif; height: 100%;" >Passive Creatives</h3>
+                
+                <div class="column-in-left" style="background-color: bisque;" class="col">
+                    <div style="border-bottom-style: solid;">
+                        <p class="int-menu">INFO BAR </p>
+                    </div>
+                    <div >
+                        <p class="int-menu">FEEDBACK BUTTON </p>
+                    </div>
+                </div>
+
+                <div class="column-in-right"  class="col" >
+                    <div style="border-bottom-style: solid;">
+                        <button id="Btn-InfoBar"  onclick="responsiveDialogCreativeCleaner=0, popOverCleaner=0, sliderCleaner=0, popUnderCleaner=0, infoBarCleaner=1, feedbackButtonCreativeCleaner=0, myFunction(), infoBar()">TEST</button>
+                    </div>
+                    <div>
+                        <button id="Btn-FeedbackButtonCreative"  onclick="responsiveDialogCreativeCleaner=0, popOverCleaner=0, sliderCleaner=0, popUnderCleaner=0, infoBarCleaner=0, feedbackButtonCreativeCleaner=1, myFunction(), feedbackButtonCreative()">TEST</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column" style="background-color: #ffd07e; margin-top: 10px;" >
+                <h3 style="text-align: center; font-family: 'Freehand', sans-serif; height: 100%;" >Embedded Creatives</h3>
+                
+                <div class="column-in-left" >
+                    <div style="border-bottom-style: solid;">
+                        <p class="int-menu"> CUSTOM EMBEDDED FEEDBACK </p>
+                    </div>
+                    <div >
+                        <p class="int-menu">EMBEDDED LINK </p>
+                    </div>
+                </div>
+
+                <div class="column-in-right"  class="col" >
+                    <div style="border-bottom-style: solid;">
+                        <button id="Btn-CustomEmbeddedFeedback"  onclick="responsiveDialogCreativeCleaner=0, popOverCleaner=0, sliderCleaner=0, popUnderCleaner=0, infoBarCleaner=0, feedbackButtonCreativeCleaner=0, customEmbeddedFeedbackCleaner=1, embeddedLinkCleaner=0, myFunction(), customEmbeddedFeedback()">TEST</button>
+                    </div>
+                    <div>
+                        <button id="Btn-EmbeddedLink"  onclick="responsiveDialogCreativeCleaner=0, popOverCleaner=0, sliderCleaner=0, popUnderCleaner=0, infoBarCleaner=0, feedbackButtonCreativeCleaner=0, customEmbeddedFeedbackCleaner=0, embeddedLinkCleaner=1, myFunction(), embeddedLink()">TEST</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <div id="template">
+
+        </div>
+
+        <!-- SCROLL ON TOP IS HERE -->
+    <div id="backToIntercept" onclick="backToIntercept() ;">
+        <span><i>INTERCEPT MENU</i></span>
+    </div>
+    
+    <!-- AOS ANIMATION LIBRARY -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- BOOTSTRAP SCRIPT FILE  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- MAIN SCRIPT FILE -->
+    <script src="./main.js"></script>
+</body>
+
+</html>

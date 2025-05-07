@@ -1,0 +1,436 @@
+/* ------ Header is here ------ */
+.logo {
+    margin-left: 35px;
+}
+
+.right-nav {
+    margin-right: 35px;
+}
+
+.h-list li {
+    padding: 5px;
+    margin: 10px;
+}
+
+/* ------- ABOUT-US IS HERE ------ */
+.right-about {
+    margin-left: 35px;
+}
+
+/* ------- OUR CHEF. IS HERE ------ */
+.chef-sub-contain {
+    height: 100vh;
+}
+
+.left-chef {
+    padding: 10px;
+}
+
+.left-chef p {
+    line-height: normal;
+}
+
+/* ----- SERVICE SECTION IS HERE ------ */
+.left-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.right-part p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* CONTACT-US SECTION IS HERE */
+.contact-box {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 769px) {
+
+    /* Header is here */
+    .h-list {
+        width: 100%;
+        height: 70vh;
+        background-color: #ffd07e;
+        color: black;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 9.5rem;
+        left: 100%;
+        transition: all 1s ease-in;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+        margin-right: 30px;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+
+    #navbar {
+        position: relative;
+        z-index: 1;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    /* Home section is here  */
+
+    #home {
+        margin-top: 10px;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 20px 0 20px;
+    }
+
+    .left-home h1 {
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+
+    .left-home .h-para {
+        font-size: 14px;
+    }
+
+    #Btn {
+        font-size: 12px;
+    }
+
+    .right-home img {
+        height: auto;
+        max-width: 50%;
+        margin-top: 20px;
+    }
+
+    .right-home img:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+
+    /* About-Us section is here */
+    #aboutUs {
+        padding: 0 20px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-about {
+        margin-bottom: 20px;
+    }
+
+    .left-about img {
+        width: 58%;
+    }
+
+    .right-about {
+        margin-left: 0;
+    }
+
+    .right-about p {
+        padding: 10px;
+    }
+
+    /* Menu section is here */
+    #our-menu {
+        padding: 0 20px;
+    }
+
+    .menu-img img {
+        width: 100%;
+    }
+
+    /* Our-chef section is here */
+    .chef-sub-contain {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-chef {
+        flex-basis: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .left-chef hr {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .right-chef {
+        flex-basis: 100%;
+    }
+
+    .right-chef .d-block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Service section is here */
+    .partner-item img {
+        width: 100%;
+        max-width: 160px;
+        margin: 10px;
+    }
+
+    .partner-item {
+        justify-content: center;
+    }
+
+    .partner-cont {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-part {
+        border: none;
+        width: 50%;
+        padding: 0;
+    }
+
+    .left-part .d-block {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .right-part {
+        width: 80%;
+    }
+
+    .right-part p {
+        font-size: 16px;
+    }
+
+    /* Contact-US section is here */
+    .contact-box {
+        width: 85%;
+        margin: 50px auto;
+        padding-left: 40px;
+    }
+
+    .input-row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .input-row .input-group {
+        flex-basis: 45%;
+    }
+
+    /* Some Utility classes */
+    .heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    .logo img {
+        height: 75px;
+    }
+
+    .logo h3 {
+        font-size: 1.5rem;
+    }
+
+    #home {
+        margin-top: 15px;
+    }
+
+    .left-home h1 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .heading {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .about-head p strong {
+        font-size: 15px;
+    }
+
+    .sub-head {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .right-about p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    #chef {
+        margin-top: 30px;
+    }
+
+    .left-chef h3 {
+        font-size: 25px;
+    }
+
+    .left-chef p {
+        font-size: 15px;
+    }
+
+    .partner-item img {
+        width: 140px;
+    }
+
+    .partners-abt h4 {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .left-part .d-block {
+        height: 100px;
+    }
+
+    .partBtn {
+        width: 110px;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .social ul {
+        justify-content: space-evenly;
+    }
+
+    .footer-item h2 {
+        font-size: 22px;
+    }
+
+    footer .footerPara {
+        font-size: 13px;
+    }
+
+    .input-row {
+        flex-direction: column;
+    }
+
+    .input-group {
+        margin: 10px 0px;
+    }
+
+    .footer-section {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .h-list{
+        height: 55vh;
+        top: 6.6rem;
+    }
+
+    .h-list li a{
+        font-size: 1.2rem;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .logo h3 {
+        font-size: 1.2rem;
+    }
+
+    .checkBtn{
+        font-size: 25px;
+    }
+
+    .left-home .col-red p {
+        font-size: 14px;
+    }
+
+    .left-home h1{
+        font-size: 18px;
+    }
+
+    .left-home .h-para {
+        font-size: 12px;
+    }
+
+    .heading {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .chef-sub-contain{
+        padding: 0px;
+    }
+
+    .left-chef{
+        padding: 10px;
+    }
+
+    .left-chef h3 {
+        font-size: 18px;
+    }
+
+    .left-chef p {
+        font-size: 12px;
+    }
+
+    .partner-item img {
+        width: 110px;
+    }
+
+    .right-part p {
+        font-size: 14px;
+        margin: 1rem 0;
+    }
+    
+    .footer-item h2{
+        font-size: 18px;
+    }
+    
+    .footer-item h2::after {
+        top: 2rem;
+    }
+    
+    .footer-item a{
+        font-size: 14px;
+    }
+
+    #scroll-on-top {
+        bottom: 4rem;
+        right: 5%;
+        height: 32px;
+        width: 32px;
+    }
+
+    .contact-box h2{
+        font-size: 20px;
+    }
+
+    .contact-box p{
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    label{
+        font-size: 16px;
+    }
+
+    placeholder{
+        font-size: 10px;
+    }
+}
