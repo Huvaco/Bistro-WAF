@@ -114,3 +114,56 @@ function handleCarouselMove(positive = true) {
   const slideWidth = slide.clientWidth;
   carousel.scrollLeft = positive ? carousel.scrollLeft + slideWidth : carousel.scrollLeft - slideWidth;
 }
+
+
+
+
+
+
+
+function actualizarCookie() {
+    const fechaActual = new Date();
+    const horaFinalDelDia = new Date(fechaActual.getFullYear(), fechaActual.getMonth(), fechaActual.getDate(), 23, 59, 59);
+
+    // Calcula el tiempo restante hasta el final del día en milisegundos
+    const tiempoRestante = horaFinalDelDia.getTime() - fechaActual.getTime();
+
+    // Guarda la cookie con el tiempo restante y la fecha de expiración
+    document.cookie = "tiempoActual=" + fechaActual.getTime() + ";expires=" + horaFinalDelDia.toUTCString() + ";path=/";
+
+    //Actualiza el valor de la cookie en el localStorage
+    localStorage.setItem("tiempoActual", fechaActual.getTime());
+
+    // Actualiza la página cada 60 segundos (o el tiempo que prefieras)
+    setTimeout(actualizarCookie, 60000);
+}
+
+
+
+// Llama la función para comenzar a actualizar la cookie
+actualizarCookie();
+
+// Función para obtener el tiempo actual de la cookie
+function obtenerTiempoActual() {
+    const cookie = document.cookie;
+    const tiempoActualString = cookie.split("tiempoActual=")[1].split(";")[0];
+    return parseInt(tiempoActualString);
+}
+
+// Obtener el tiempo actual de la cookie desde localStorage
+let tiempoActual = localStorage.getItem("tiempoActual");
+
+if(tiempoActual){
+   tiempoActual = parseInt(tiempoActual);
+} else {
+    tiempoActual = obtenerTiempoActual();
+}
+
+
+// Función para mostrar el tiempo en la página
+function mostrarTiempo() {
+    const tiempoActualSegundos = (new Date().getTime() - tiempoActual)/1000;
+    const elementoTiempo = document.getElementById("tiempo");
+    elementoTiempo.textContent = "Tiempo transcurrido: " + tiempoActualSegundos + " segundos";
+}
+
