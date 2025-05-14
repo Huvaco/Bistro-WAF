@@ -40,6 +40,7 @@ var embeddedLinkCleaner;
 //Responsive Dialog Page
 var responsiveDialogPageCleaner;
 var messageCleaner;
+var buttonsCleaner;
 
 //Extra
 var cleaner;
@@ -106,6 +107,12 @@ function display(){
 function message(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-Message');
 }
+
+function buttons(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-Buttons');
+}
+
+
 
 const carousel = document.querySelector(".carousel-container");
 const slide = document.querySelector(".carousel-slide");
