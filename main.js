@@ -12,6 +12,13 @@ function backToIntercept() {
     b = location.href = 'Intercept-menu.html';
 }
 
+function ScrollResponsive() {
+    let b = window.document;
+    b = location.href = 'Creative-menu.html';
+}
+
+
+
 // CONTACT-FORM MESSAGE ALERT
 
 let contact = document.getElementById('contact-form');

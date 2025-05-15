@@ -608,6 +608,24 @@ footer .footerPara {
     cursor: pointer;
 }
 
+#backToCreative {
+    background-color: #ffd07e;
+    color: #000;
+    padding: 9px;
+    border-radius: 9px;
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 1rem;
+    right: 4%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    cursor: pointer;
+}
+
 /* SOME COMMON UTILITIES CLASSES */
 
 .heading {
