@@ -42,6 +42,7 @@ var responsiveDialogPageCleaner;
 var messageCleaner;
 var buttonsCleaner;
 var logosCleaner;
+var animationCleaner;
 
 //Extra
 var cleaner;
@@ -116,6 +117,11 @@ function buttons(){
 function logos(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-Logos');
 }
+
+function animation(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-Animation');
+}
+
 
 
 
