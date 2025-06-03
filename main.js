@@ -51,6 +51,9 @@ var buttonsCleaner;
 var logosCleaner;
 var animationCleaner;
 
+//Pop Over Creative
+var animateCleaner;
+
 //Extra
 var cleaner;
 
@@ -127,6 +130,11 @@ function logos(){
 
 function animation(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-Animation');
+}
+
+//Pop Over Creative
+function animate(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-Animate');
 }
 
 
