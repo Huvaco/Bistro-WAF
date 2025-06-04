@@ -61,12 +61,12 @@ var displayCreativeCleaner;
 //Extra
 var cleaner;
 
-/*function myFunction() {
+function myFunction() {
     QSI.API.unload(); 
     QSI.isDebug = true; 
     QSI.API.load(); 
     QSI.API.run();
-}*/
+}
 
 function responsiveDialog(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-ResponsiveDialog');
