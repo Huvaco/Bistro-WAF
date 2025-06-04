@@ -1205,7 +1205,7 @@ footer-intercepts {
 
 /* Pop Over Creative */
 
-#Btn-Animate {
+#Btn-PopOver {
     margin-left: 33%;
     padding: 10px 15px;
     border-radius: 15rem;
@@ -1225,6 +1225,60 @@ footer-intercepts {
 }
 
 #Btn-Animate:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+#Btn-ShadowBox{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-ShadowBox:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+/*Slider Creatives*/
+
+#Btn-DisplaySliderCreative{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-DisplaySliderCreative:hover {
     transform: scale(1.1);
     background: transparent;
     color: black;

@@ -53,16 +53,20 @@ var animationCleaner;
 
 //Pop Over Creative
 var animateCleaner;
+var shadowBoxCleaner;
+
+//Slider Creative
+var displayCreativeCleaner;
 
 //Extra
 var cleaner;
 
-function myFunction() {
+/*function myFunction() {
     QSI.API.unload(); 
     QSI.isDebug = true; 
     QSI.API.load(); 
     QSI.API.run();
-}
+}*/
 
 function responsiveDialog(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-ResponsiveDialog');
@@ -133,9 +137,21 @@ function animation(){
 }
 
 //Pop Over Creative
-function animate(){
-    window._qsie = window._qsie || [];window._qsie.push('Btn-Animate');
+
+function popOver(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-PopOver');
 }
+
+function shadowBox(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-ShadowBox');
+}
+
+//Slider Creative
+
+function displaySliderCreative(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-DisplaySliderCreative');
+}
+
 
 
 

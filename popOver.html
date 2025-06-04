@@ -155,7 +155,7 @@
                                 <strong>PopOver Position:</strong> A grid where you can choose a path for the Creative to follow. Simply select a Start Position and End Position.
                             </li>
                         </ul>
-                        <button id="Btn-Animate" style="margin-left: 0% ;" onclick=" animateCleaner = 1,  myFunction(), animate()">TEST</button>
+                        <button id="Btn-PopOver" style="margin-left: 0% ;" onclick=" animateCleaner = 1,  myFunction(), popOver()">TEST</button>
                     </p>
                 </div>
             </div>
@@ -170,66 +170,7 @@
                         Once you select Shadow Box, you will be able to adjust the shadow’s Opacity, Color, and Fade In. 
                         When selected, Fade In gradually fades the shadow on the page to the desired opacity, whereas when deselected, the shadow appears from the start.
                     </p>
-                    <button id="Btn-FeedbackButton" style="margin-left: 0% ;" onclick=" responsiveDialogPageCleaner=0, messageCleaner=1; myFunction(), message()">TEST</button>
-                    
-                </div>
-
-                <div class="left-about2">
-                    <img src="" style="height: 75%; width: 75%; " alt="">
-                </div>
-            </div>
-
-            <div class="about-container">
-                <div class="left-about2">
-                    <img src="" style="height: 75%; width: 75%; " alt="">
-                </div>
-                <div class="right-about">
-                    <h2>Buttons </h2>
-                    <p> 
-                        In the Buttons section, you can configure options specific to the number, appearance, and target for each button.
-                        <ol>
-                            <li>
-                                Start by choosing the number of buttons you want on your creative.
-                            </li>
-                            <li>
-                                Specify the Button Shape for each button by choosing from None, Slightly Rounded, Moderately Rounded or Completely Rounded.
-                            </li>
-                            <li>
-                                Specify the Text Size.
-                            </li>
-                            <li>
-                                For each button:
-                                <ul>
-                                    <li>
-                                        Specify your Text. This is what the button says.
-                                    </li>
-                                    <li>
-                                        Choose the Button Action to either Open Target or Dismiss Intercept. 
-                                        Open Target indicates that this button will open the target that you specify in your intercept criteria. 
-                                        Dismiss Intercept will simply close the intercept.
-                                    </li>
-                                    <li>
-                                        Choose your Label Color, Background Color and Border Color using the color picker palette.
-                                    </li>
-                                </ul>
-                            </li>
-                        </ol>
-                        <button id="Btn-Buttons" style="margin-left: 0% ;" onclick=" responsiveDialogPageCleaner = 0, messageCleaner =0, buttonsCleaner=1, myFunction(), buttons()">TEST</button>
-                    </p>
-                </div>
-            </div>
-
-            <div class="about-container">
-                
-                <div class="right-about">
-                    <h2>Logos & Images</h2>
-                    <p> 
-                        In the Logos & Images section, you can specify 1 or more images/logos to include on your creative.
-                        <br>
-                        You can choose to upload a separate image for Mobile or Desktop, so that different images will be displayed depending on whether the creative is seen on a Mobile or Desktop browser. 
-                        You can also upload the same image but with different resolutions to optimizing the display on either type of device browsers.
-                    </p>
-                    <button id="Btn-Logos" style="margin-left: 0% ;" onclick=" responsiveDialogPageCleaner=0, messageCleaner=0; buttonsCleaner=0, logosCleaner=1, myFunction(), logos()">TEST</button>
+                    <button id="Btn-ShadowBox" style="margin-left: 0% ;" onclick=" shadowBoxCleaner=1, animateCleaner = 0, myFunction(), shadowBox()">TEST</button>
                     
                 </div>
 
@@ -239,81 +180,7 @@
             </div>
 
 
-            <div class="about-container">
-                <div class="left-about2">
-                    <img src="" style="height: 75%; width: 75%; " alt="">
-                </div>
-                <div class="right-about">
-                    <h2>Animation</h2>
-                    <p> 
-                        In the Animation section you can choose the type of animation (Fade or Slide In)  you want for your creative as it appears on the screen.
-                        <ul>
-                            <li>
-                                <strong>Display dialog afetr:</strong> The number of seconds after the user meets the intercept conditions (e.g., clicks into the app) that this dialog appears.
-
-                            </li>
-                            <li>
-                                <strong>Set timer to close dialog: </strong>Determine how long after the dialog appears that it should close itself. 
-                                Deselect this option to force the user to close the dialog to remove it from the screen.
-                            </li>
-                            <li>
-                                <strong>Transition Type: </strong>Choose whether the creative fades or slides onto the screen when it appears. 
-                                If you choose Slide In animation, then you can also select the final position of the creative on the screen (Top Left, Top Right, Bottom Left, Bottom Right).
-                            </li>   
-                            <li>
-                                <strong> Fade Background: </strong>The color of the device’s screen behind the creative (None, Light, Medium or Dark).
-                            </li>
-                            <li>
-                                <strong>Survey display: </strong>Where the survey will be displayed (New window, Embedded window, Current window, PopUnder window, or New tab).
-                            </li>
-                        </ul>
-                        <button id="Btn-Animation" style="margin-left: 0% ;" onclick=" responsiveDialogPageCleaner = 0, messageCleaner =0, buttonsCleaner=0, logosCleaner=0; animationCleaner=1, myFunction(), animation()">TEST</button>
-                    </p>
-                </div>
-            </div>
-
-
-
-
-
         </div>
-
-
-        <div class="row-int">
-            <div class="column" style="background-color: #ffd07e;">
-                <h3 style="text-align: center; font-family: 'Freehand', sans-serif;"> Guided Intercepts</h3>
-
-                <div class="column-in-left">
-                    <div style="border-bottom-style: solid;">
-                        <p class="int-menu">RESPONSIVE DIALOG </p>
-                    </div>
-                    <div style="border-bottom-style: solid;">
-                        <p class="int-menu">FEEDBACK BUTTON </p>
-                    </div>
-                    <div>
-                        <p class="int-menu">TEMPLATE EMBEDDED FEEDBACK </p>
-                    </div>
-                    
-                  </div>
-
-                  <div class="column-in-right">
-                    <div style="border-bottom-style: solid;">
-                        <button id="Btn-ResponsiveDialog" onclick=" responsiveDialogCleaner=1, feedBackButtonCleaner=0; templateEmbeddedFeedbackCleaner=0, myFunction(), responsiveDialog()">TEST</button>
-                    </div>
-                    <div style="border-bottom-style: solid;">
-                        <button id="Btn-FeedbackButton" onclick=" responsiveDialogCleaner=0, feedBackButtonCleaner=1; templateEmbeddedFeedbackCleaner=0, myFunction(), feedBackButton()">TEST</button>
-                    </div>
-                    <div >
-                        <button id="Btn-TemplateEmbeddedFeedback" onclick=" responsiveDialogCleaner=0, feedBackButtonCleaner=0, templateEmbeddedFeedbackCleaner=1, myFunction(), templateEmbeddedFeedback()">TEST</button>
-                    </div>
-                  </div>
-            </div>
-        </div>
-
-        <div id="template">
-
-        </div>
-
     
     <!-- SCROLL ON TOP IS HERE -->
     <div id="backToCreative" onclick="ScrollResponsive() ;">
