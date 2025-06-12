@@ -57,6 +57,8 @@ var shadowBoxCleaner;
 
 //Slider Creative
 var displayCreativeCleaner;
+var removeOnCloseCleaner; 
+var removeOnTargetCleaner;
 
 //Extra
 var cleaner;
@@ -152,9 +154,19 @@ function displaySliderCreative(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-DisplaySliderCreative');
 }
 
+function removeOnClose(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-RemoveOnClose');
+}
+
+function removeOnTarget(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-RemoveOnTarget');
+}
 
 
 
+function test(){
+    window._qsie = window._qsie || [];window._qsie.push('test');
+}
 
 const carousel = document.querySelector(".carousel-container");
 const slide = document.querySelector(".carousel-slide");
