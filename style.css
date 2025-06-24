@@ -176,12 +176,12 @@ html, body {
 
 .left-about {
     flex-basis: 50%;
-    margin-right: 80px;
+    margin-right: 9%;
 }
 
 .right-about {
     flex-basis: 50%;
-    margin-left: 80px;
+    margin-left: 5%;
 }
 
 .left-about2 {
@@ -192,9 +192,18 @@ html, body {
 .right-about2 {
     flex-basis: 70%;
     margin-left: 80px;
+    margin-right: 5%;
 }
 
 .left-about2 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.right-about2 img {
     width: 100%;
     height: 100%;
     cursor: pointer;
@@ -204,11 +213,13 @@ html, body {
 .left-about img {
     width: 23rem;
     height: 23rem;
-    margin-left: 70%;
+    margin-left: 50%;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.4s linear
 }
+
+
 
 .left-about img:hover {
     transform: scale(1.1);
@@ -219,7 +230,6 @@ html, body {
     width: 23rem;
     height: 23rem;
     cursor: pointer;
-    margin-right: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.4s linear
 }
@@ -650,7 +660,7 @@ footer .footerPara {
 .intercept-menu{
     height: auto;
     width: 23rem;
-    margin-left: 70%;
+    margin-left: 50%;
     margin-bottom: 20px;
     padding: auto;
     text-align: center;
@@ -661,7 +671,7 @@ footer .footerPara {
 .creative-menu{
     height: auto;
     width: 23rem;
-    margin-right: 50%;
+    margin-right: 70%;
     margin-bottom: 20px;
     padding: auto;
     text-align: center;
@@ -1311,7 +1321,7 @@ footer-intercepts {
     border: 1px solid #ffd07e;
 }
 
-#Btn-RemoveOnTarget{
+#Btn-RemoveOn{
     margin-left: 33%;
     padding: 10px 15px;
     border-radius: 15rem;
