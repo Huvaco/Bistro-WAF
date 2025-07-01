@@ -176,12 +176,12 @@ html, body {
 
 .left-about {
     flex-basis: 50%;
-    margin-right: 9%;
+    margin-right: 80px;
 }
 
 .right-about {
     flex-basis: 50%;
-    margin-left: 5%;
+    margin-left: 80px;
 }
 
 .left-about2 {
@@ -213,7 +213,7 @@ html, body {
 .left-about img {
     width: 23rem;
     height: 23rem;
-    margin-left: 50%;
+    margin-left: 70%;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.4s linear
@@ -229,6 +229,8 @@ html, body {
 .right-about img {
     width: 23rem;
     height: 23rem;
+    margin-right: 50%;
+
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.4s linear
