@@ -186,7 +186,8 @@ html, body {
 
 .left-about2 {
     flex-basis: 30%;
-    margin-right: 80px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .right-about2 {
@@ -196,18 +197,20 @@ html, body {
 }
 
 .left-about2 img {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: -45%;
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .right-about2 img {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 25%;
 }
 
 .left-about img {
@@ -1348,3 +1351,51 @@ footer-intercepts {
     color: black;
     border: 1px solid #ffd07e;
 }
+
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {  
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform:  scale(2);
+    cursor: zoom-out
+  }
+
+
+
+
+  .click-zoom2 input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom2 img {  
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom2 input[type=checkbox]:checked~img {
+    transform:  scale(1.5);
+    cursor: zoom-out
+  }
+
+  
+
+
+  .click-zoom3 input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom3 img {  
+    transition: transform 0.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom3 input[type=checkbox]:checked~img {
+    transform:  scale(1.2);
+    cursor: zoom-out
+  }

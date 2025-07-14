@@ -177,4 +177,3 @@ function handleCarouselMove(positive = true) {
 }
 
 
-
