@@ -140,22 +140,39 @@
             <div class="about-container">
                 
                 <div class="right-about2">
-                    <h2>Shadow Box</h2>
+                    <h2>Info Bar Options</h2>
+                    <br>
+                    <h3>Animate InfoBar</h3>
                     <p> 
-                        When enabled, the Shadow Box option allows you to draw more attention to your Pop Over by dimming the web page behind it.
+                        When selected, the Info Bar will slide onto the page instead of appearing abruptly. This effect is an easier transition and draws the visitor’s eye.
                         <br>
-                        Once you select Shadow Box, you will be able to adjust the shadow’s Opacity, Color, and Fade In. 
-                        When selected, Fade In gradually fades the shadow on the page to the desired opacity, whereas when deselected, the shadow appears from the start.
                     </p>
-                    <button id="Btn-ShadowBox" style="margin-left: 0% ;" onclick=" shadowBoxCleaner=1, animateCleaner = 0, myFunction(), shadowBox()">TEST</button>
+                    <button id="Btn-InfoBarAnimate" style="margin-left: 0% ;" onclick="infoBarTopCleaner = 0, infoBarBottomCleaner = 0, infoBarLeftCleaner = 0, infoBarRightCleaner = 0, infoBarAnimateCleaner=1, myFunction(), infoBarAnimate()">TEST</button>
                     
                 </div>
 
-                <div class="left-about2 click-zoom">
+                <div class="left-about2 click-zoom2">
                     <label>
                         <input type='checkbox' />
-                    <img src="./Img/PopOver/Shadowbox-popOver.png"  alt="">
+                    <img src="./Img/InfoBar/animate-infobar.png"  alt="">
                     </label>
+                </div>
+            </div>
+
+            <div class="about-container">
+                <div class="right-about2 click-zoom2">
+                    <label>
+                        <input type='checkbox' />
+                    <img src="./Img/InfoBar/insert-infobar.png" style=" margin-left: 30% ; " alt="">
+                    </label>
+                </div>
+                <div class="right-about2">
+                    <h3>Insert Into Page Body</h3>
+                    <p> 
+                        When selected, Insert Into Page Body pushes site content down to make room for the Info Bar, rather than covering page content.
+                        <br>
+                        <button id="Btn-InfoBarInsert" style="margin-left: 0% ;" onclick="infoBarTopCleaner = 0, infoBarBottomCleaner = 0, infoBarLeftCleaner = 0, infoBarRightCleaner = 0, infoBarAnimateCleaner=0, infoBarInsertCleaner=1, myFunction(), infoBarInsert()">Test</button>
+                    </p>
                 </div>
             </div>
             <br>

@@ -71,6 +71,7 @@ var infoBarTopCleaner;
 var infoBarBottomCleaner;
 var infoBarLeftCleaner;
 var infoBarRightCleaner;
+var infoBarAnimateCleaner;
 
 //Extra
 var cleaner;
@@ -194,6 +195,14 @@ function infoBarLeft(){
 
 function infoBarRight(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarRight');
+}
+
+function infoBarAnimate(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarAnimate');
+}
+
+function infoBarInsert(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarInsert');
 }
 
 
