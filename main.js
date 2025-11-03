@@ -7,6 +7,12 @@ function scrolltop() {
     b = location.href = '#home';
 }
 
+// SROLL ON BOTTOM
+function scrollbottom() {
+    let b = window.document;
+    b = location.href = '#foot';
+}
+
 function backToIntercept() {
     let b = window.document;
     b = location.href = 'Intercept-menu.html';
@@ -59,6 +65,12 @@ var shadowBoxCleaner;
 var displayCreativeCleaner;
 var removeOnCloseCleaner; 
 var removeOnTargetCleaner;
+
+//InfoBar Creative
+var infoBarTopCleaner;
+var infoBarBottomCleaner;
+var infoBarLeftCleaner;
+var infoBarRightCleaner;
 
 //Extra
 var cleaner;
@@ -162,6 +174,27 @@ function removeOnTarget(){
     window._qsie = window._qsie || [];window._qsie.push('Btn-RemoveOnTarget');
 }
 
+function sliderPosition(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-SliderPosition');
+}
+
+//InfoBar Creative
+
+function infoBarTop(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarTop');
+}
+
+function infoBarBottom(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarBottom');
+}
+
+function infoBarLeft(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarLeft');
+}
+
+function infoBarRight(){
+    window._qsie = window._qsie || [];window._qsie.push('Btn-InfoBarRight');
+}
 
 
 function test(){

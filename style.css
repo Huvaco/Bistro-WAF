@@ -1352,6 +1352,139 @@ footer-intercepts {
     border: 1px solid #ffd07e;
 }
 
+#Btn-SliderPosition{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-SliderPosition:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+/*InfoBar*/
+
+#Btn-InfoBarTop{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-InfoBarTop:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+#Btn-InfoBarBottom{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-InfoBarBottom:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+#Btn-InfoBarLeft{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-InfoBarLeft:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+#Btn-InfoBarRight{
+    margin-left: 33%;
+    padding: 10px 15px;
+    border-radius: 15rem;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-top: 9px;
+    background-color: #ffd07e;
+    border: 1px solid #ffd07e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin-bottom: 9px;
+
+}
+
+#Btn-InfoBarRight:hover {
+    transform: scale(1.1);
+    background: transparent;
+    color: black;
+    border: 1px solid #ffd07e;
+}
+
+
 .click-zoom input[type=checkbox] {
     display: none
   }

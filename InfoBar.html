@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Img/Chef Logo.png" type="image/x-icon">
+    <title>Info Bar</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- MOBILE SHEET -->
+    <link rel="stylesheet" media="screen and (max-width: 1025px)" href="./mobilesheet.css">
+
+    <!-- AOS ANIMATION LIBRARY -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <!-- FONT-AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+       <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+
+<script type='text/javascript'>
+
+    (function(){var g=function(g){
+    
+    this.go=function(){var a=document.createElement("script");a.type="text/javascript";a.src=g;document.body&&document.body.appendChild(a)};
+    
+    this.start=function(){var t=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){t.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){t.go()}):t.go()};};
+    
+    try{(new g("https://znc1wjbb8tloiy7zf-qasia.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_C1WJBB8tloIY7Zf")).start()}catch(i){}})();
+    
+    </script><div id='ZN_C1WJBB8tloIY7Zf'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+    
+    <!--END WEBSITE FEEDBACK SNIPPET-->
+</head>
+
+<body>
+    <!-- NAVBAR SECTION START FROM HERE -->
+    <header>
+        <nav id="navbar" data-aos="fade-down">
+            <div class="logo">
+                <img src="./Img/Chef Logo.png" alt="" id="home">
+                <h3>WAF Restro</h3>
+            </div>
+            
+            <div class="right-nav">
+                <input type="checkbox" name="check" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </label>
+                <ul class="h-list">
+                    <li><a href="index.html">Home</a></li>       
+                    <li><a href="our-menu.html">Our Menu</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION IS START FROM HERE -->
+
+    <main>
+        
+        <!-- Menu -->
+        <div class="header-menu">
+            <h1 >Info Bar</h1>
+        </div>
+
+        <div>
+            <div class="about-container">
+                <div class="right-about2 click-zoom2">
+                    <label>
+                        <input type='checkbox' />
+                    <img src="./Img/InfoBar/info-bar-1.png"  alt="">
+                    </label>
+                </div>
+                <div class="right-about2">
+                    <h2>About Info Bar Creatives</h2>
+                    <p> 
+                        The Info Bar takes the form of a banner along the top or bottom of a webpage, attracting the visitor’s attention without disrupting their viewing experience. It is commonly used for announcements and notifications; for example, explaining your Cookie policy or announcing a new product.
+                        <br>
+                        <b>Qtip:</b> The Info Bar can be great for targeting mobile devices because other Creatives (such as Pop Overs and Sliders) may cover too much of the small screen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-container">
+                
+                <div class="right-about2">
+                    <h2>How It Works</h2>
+                    <p> 
+                        The Info Bar displays a banner across the top or bottom of your page and automatically adjusts to the visitor’s browser size. It can also be animated so it slides onto the screen, instead of appearing abruptly.
+                        <br>
+                        Additionally, you are able to select whether you want the Info Bar to cover up the content at the top of the page, or push everything under it so that nothing is hidden.
+                        
+                    </p>
+                </div>
+
+                <div class="left-about2 click-zoom">
+                    <label>
+                        <input type='checkbox' />
+                    <img src="./Img/InfoBar/info-bar-3.png" style="height: 130%; width: 130%;" alt="">
+                    </label>
+                </div>
+            </div>
+
+            <div class="about-container">
+                <div class="right-about2 click-zoom2">
+                    <label>
+                        <input type='checkbox' />
+                    <img src="./Img/InfoBar/anchor.png" style=" margin-left: 30% ; " alt="">
+                    </label>
+                </div>
+                <div class="right-about2">
+                    <h2>Setting Up Your Info Bar</h2>
+                    <h3>Anchor</h3>
+                    <p> 
+                        The Anchor option lets you decide if the Info Bar should be fixed to the top or bottom of the page.
+                        <br>
+                        When you select other items on your Info Bar, such as text boxes, you may anchor them to the left, right, or center of the screen. The center anchor will not let you move the content off-center, making it a perfect means of adjusting where your content falls.
+                        <br>
+                        Since the Info Bar will automatically adjust itself to fit the visitor’s browser window, anchoring will help maintain your items’ relative locations. For example, if content is anchored to the left, when the visitor stretches their browser window, your Info Bar content will remain the same distance from the left side of the screen.
+                        <br>
+                        With left anchoring, regardless of browser width, this text box will always be the same distance from the left of the screen.
+                        <br>
+                        <button id="Btn-InfoBarTop" style="margin-left: 0% ;" onclick=" infoBarTopCleaner = 1, scrolltop(), myFunction(), infoBarTop()">Top Anchor</button>
+                        <button id="Btn-InfoBarBottom" style="margin-left: 0% ;" onclick=" infoBarTopCleaner = 0, infoBarBottomCleaner = 1, scrollbottom(), myFunction(), 
+                        infoBarBottom()">Bottom Anchor</button>
+                        <button id="Btn-InfoBarLeft" style="margin-left: 0% ;" onclick=" infoBarTopCleaner = 0, infoBarBottomCleaner = 0, infoBarLeftCleaner = 1, scrolltop(), myFunction(), infoBarLeft()">Left Anchor</button>
+                        <button id="Btn-InfoBarRight" style="margin-left: 0% ;" onclick=" infoBarTopCleaner = 0, infoBarBottomCleaner = 0, infoBarLeftCleaner = 0, infoBarRightCleaner = 1, scrolltop(), myFunction(), infoBarRight()">Right Anchor</button>
+                    </p>
+                </div>
+            </div>
+
+            <div class="about-container">
+                
+                <div class="right-about2">
+                    <h2>Shadow Box</h2>
+                    <p> 
+                        When enabled, the Shadow Box option allows you to draw more attention to your Pop Over by dimming the web page behind it.
+                        <br>
+                        Once you select Shadow Box, you will be able to adjust the shadow’s Opacity, Color, and Fade In. 
+                        When selected, Fade In gradually fades the shadow on the page to the desired opacity, whereas when deselected, the shadow appears from the start.
+                    </p>
+                    <button id="Btn-ShadowBox" style="margin-left: 0% ;" onclick=" shadowBoxCleaner=1, animateCleaner = 0, myFunction(), shadowBox()">TEST</button>
+                    
+                </div>
+
+                <div class="left-about2 click-zoom">
+                    <label>
+                        <input type='checkbox' />
+                    <img src="./Img/PopOver/Shadowbox-popOver.png"  alt="">
+                    </label>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <footer>
+                <div class="footer-section" data-aos="zoom-in">
+        
+                    <div class="footer-item">
+                        <h2>Chef Restro</h2>
+                        <p><a href="./index.html#home">Home</a></p>
+                        <p><a href="./index.html#aboutUs">About Us</a></p>
+                        <p><a href="./index.html#our-menu">Our Menu</a></p>
+                        <p><a href="./index.html#chef">Our Chef</a></p>
+                        <p><a href="#services">Services</a></p>
+                    </div>
+                    <div class="footer-item">
+                        <h2>Our Franchise</h2>
+                        <p><a href="#">USA</a></p>
+                        <p><a href="#">Mexico</a></p>
+                        <p><a href="#">Dublin</a></p>
+                    </div>
+                    <div class="footer-item">
+                        <h2>Services</h2>
+                        <p><a href="#services">Dine In</a></p>
+                        <p><a href="#services">Take Away</a></p>
+                        <p><a href="#services">Order Online</a></p>
+                        <p><a href="#contactUs">Book Table</a></p>
+                    </div>
+                    <div class="footer-item social">
+                        <h2>Connect With Us</h2>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="footerPara" id="foot">Huvaco</p>
+            </footer>
+
+        </div>
+    
+    <!-- SCROLL ON TOP IS HERE -->
+    <div id="backToCreative" onclick="ScrollResponsive() ;">
+        <span><i>CREATIVE MENU</i></span>
+    </div>
+    
+    <!-- AOS ANIMATION LIBRARY -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- BOOTSTRAP SCRIPT FILE  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+        <div id="intercpt"></div>
+
+    <!-- MAIN SCRIPT FILE -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
