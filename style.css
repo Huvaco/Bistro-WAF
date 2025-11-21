@@ -1583,3 +1583,7 @@ footer-intercepts {
     transform:  scale(1.2);
     cursor: zoom-out
   }
+
+  .QSIEmbeddedTargetContainer{
+    background-color: red;
+  }
